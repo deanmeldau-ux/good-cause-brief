@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Good Cause — Website Update Brief</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #1a1a1a; font-size: 16px; line-height: 1.6; padding: 0 0 60px; }
+    header { background: #1a1a1a; color: #fff; padding: 24px 20px; }
+    header h1 { font-size: 22px; font-weight: 800; }
+    header p { font-size: 14px; color: #999; margin-top: 4px; }
+    .badge { display: inline-block; background: #F5B800; color: #000; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 3px 10px; border-radius: 100px; margin-top: 10px; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+    .change { background: #fff; border-radius: 12px; padding: 24px 20px; margin-top: 20px; border-left: 4px solid #1a1a1a; }
+    .change.remove { border-left-color: #ff4444; }
+    .change.add { border-left-color: #22c55e; }
+    .change.update { border-left-color: #3b82f6; }
+    .change.fix { border-left-color: #f59e0b; }
+    .change-label { font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+    .remove .change-label { color: #ff4444; }
+    .add .change-label { color: #22c55e; }
+    .update .change-label { color: #3b82f6; }
+    .fix .change-label { color: #f59e0b; }
+    .change h2 { font-size: 18px; font-weight: 800; margin-bottom: 12px; }
+    .position { font-size: 12px; color: #888; margin-bottom: 14px; background: #f5f5f5; padding: 6px 10px; border-radius: 6px; }
+    .copy-box { background: #f9f9f9; border: 1px solid #e5e5e5; border-radius: 8px; padding: 16px; margin-top: 12px; font-size: 15px; }
+    .copy-box h3 { font-size: 13px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #888; margin-bottom: 10px; }
+    .copy-box p { margin-bottom: 10px; color: #333; }
+    .copy-box p:last-child { margin-bottom: 0; }
+    .copy-box .headline { font-weight: 800; font-size: 17px; color: #1a1a1a; }
+    .copy-box .cta { display: inline-block; background: #1a1a1a; color: #fff; font-size: 13px; font-weight: 700; padding: 8px 16px; border-radius: 6px; margin-top: 8px; text-decoration: none; }
+    .note { background: #fffbeb; border: 1px solid #fde68a; border-radius: 8px; padding: 12px 14px; margin-top: 12px; font-size: 14px; color: #92400e; }
+    .note strong { color: #78350f; }
+    .sig { font-style: italic; color: #555; font-size: 14px; margin-top: 10px; }
+    .stat-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
+    .stat-card { background: #f5f5f5; border-radius: 8px; padding: 12px 16px; flex: 1; min-width: 120px; text-align: center; }
+    .stat-card .num { font-size: 24px; font-weight: 900; }
+    .stat-card .lbl { font-size: 12px; color: #666; margin-top: 2px; }
+    .divider { border: none; border-top: 1px solid #e5e5e5; margin: 20px 0; }
+    .pending { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 8px; padding: 14px; margin-top: 20px; font-size: 14px; color: #0c4a6e; }
+    .pending h3 { font-weight: 700; margin-bottom: 6px; }
+    .pending ul { padding-left: 18px; }
+    .pending li { margin-bottom: 4px; }
+    footer { text-align: center; margin-top: 40px; font-size: 13px; color: #aaa; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Good Cause — Website Update Brief</h1>
+    <p>For developer handover to Riaan at websiteink.co.za</p>
+    <div class="badge">7 Changes — June 2026</div>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- CHANGE 1 -->
+  <div class="change remove">
+    <div class="change-label">Remove</div>
+    <h2>1. Remove "Feed A Dog" from Navigation</h2>
+    <div class="position">Location: Top navigation menu</div>
+    <p>The Feed A Dog campaign has ended and was a great success. The nav link now leads nowhere. Remove it entirely.</p>
+    <div class="copy-box" style="margin-top:12px">
+      <h3>Optional: Add to Impact Section</h3>
+      <p>Add a fourth stat card beneath the existing three stats:</p>
+      <div class="stat-card" style="max-width:200px;margin-top:8px">
+        <div class="num">100s kg</div>
+        <div class="lbl">Of dog food donated through our Feed A Dog campaign</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHANGE 2 -->
+  <div class="change add">
+    <div class="change-label">Add New Section</div>
+    <h2>2. Founder Story — "It's Imprinted in My DNA"</h2>
+    <div class="position">Position: After hero, before "The Crisis" section</div>
+    <div class="copy-box">
+      <h3>Heading</h3>
+      <p class="headline">IT'S IMPRINTED IN MY DNA.</p>
+      <hr class="divider">
+      <h3>Body Copy</h3>
+      <p>I started Good Cause because I believe it is our duty to protect animals. They have no say in the circumstances they're born into. They can't ask for help. We have to do it for them.</p>
+      <p>I come from a family of animal rescuers. This wasn't a career choice — it's who I am. And I believe, without question, that all creatures are equal.</p>
+      <p>What I've seen up close is this: the organisations doing the hardest work on the ground are often so passionate, so committed, that they run themselves into the ground just to keep going. They shouldn't have to spend their energy worrying about how they keep their doors open. They should be doing what they do best — saving lives.</p>
+      <p>That's where Good Cause comes in. We exist to stand beside these organisations. To showcase their work, grow their reach, and help fund their operations — so they can focus on the animals, and nothing else.</p>
+      <p class="sig">— Dean Meldau, Founder &amp; Chairperson, Good Cause NPO</p>
+    </div>
+  </div>
+
+  <!-- CHANGE 3 -->
+  <div class="change add">
+    <div class="change-label">Add New Section</div>
+    <h2>3. Petition Section — Justice for Animals</h2>
+    <div class="position">Position: Between Impact stats and "Get Involved"</div>
+    <div class="note"><strong>Why this matters:</strong> The petition at petition.goodcausecares.com has 340 signatures toward 100,000 — but the main website makes zero mention of it. These two audiences never meet. This section fixes that.</div>
+    <div class="copy-box" style="margin-top:12px">
+      <h3>Heading</h3>
+      <p class="headline">JUSTICE FOR ANIMALS STARTS WITH YOUR NAME.</p>
+      <hr class="divider">
+      <h3>Body Copy</h3>
+      <p>South Africa has a broken system when it comes to animal abuse. Less than 1% of reported cases ever lead to a conviction. Offenders walk away. The cycle continues.</p>
+      <p>We are demanding change — stricter criminal penalties, faster prosecutions, lifetime ownership bans for serious offenders, and a national registry that holds abusers accountable.</p>
+      <p>340 South Africans have already signed. We need 100,000 voices.</p>
+      <a href="https://petition.goodcausecares.com/" class="cta">Sign The Petition →</a>
+      <p style="font-size:13px;color:#888;margin-top:8px">Takes 30 seconds. Free. It matters more than you think.</p>
+    </div>
+  </div>
+
+  <!-- CHANGE 4 -->
+  <div class="change update">
+    <div class="change-label">Update</div>
+    <h2>4. Monthly Donation Section Copy</h2>
+    <div class="position">Position: Alongside or above the existing donation form</div>
+    <div class="copy-box">
+      <h3>Heading</h3>
+      <p class="headline">EVERY MONTH. EVERY RAND. REAL IMPACT.</p>
+      <hr class="divider">
+      <h3>Body Copy</h3>
+      <p>Our monthly donors are the backbone of what we do. A recurring donation doesn't fund a single rescue — it gives our partner shelters and rescuers the certainty to plan, act, and save more lives month after month.</p>
+      <p>And beyond the funding, every rand you give comes with something equally powerful: the amplified reach of a growing community that tells their stories, showcases their work, and refuses to let the crisis go unnoticed.</p>
+      <p>Set it once. We'll make sure the right organisations feel it.</p>
+    </div>
+  </div>
+
+  <!-- CHANGE 5 -->
+  <div class="change update">
+    <div class="change-label">Update</div>
+    <h2>5. Good Cause TV Section</h2>
+    <div class="position">Position: Existing media/Good Cause TV section</div>
+    <p style="margin-top:8px">Keep the existing heading: <strong>"Our Cameras Don't Just Record. They Mobilise."</strong></p>
+    <div class="copy-box" style="margin-top:12px">
+      <h3>Updated Body Copy</h3>
+      <p>Good Cause TV goes behind the gates of shelters and rescues across South Africa to tell the stories that don't make the news. The animals nobody sees. The volunteers running on empty. The moments of hope that make it all worth it.</p>
+      <p>We don't just show you the problem. We show you the people solving it — and we give you every chance to stand with them.</p>
+      <hr class="divider">
+      <h3>Add: Community CTA</h3>
+      <p class="headline" style="font-size:15px">Which rescue or shelter should we visit next?</p>
+      <p style="font-size:14px;color:#555">Know an organisation doing incredible work that deserves a spotlight? Tell us.</p>
+      <a href="#" class="cta">Suggest A Shelter →</a>
+      <p style="font-size:12px;color:#888;margin-top:8px">(Link to a Google Form or contact form — Riaan to add)</p>
+      <hr class="divider">
+      <h3>Add: Social Links Row</h3>
+      <p style="font-size:14px">Add icons + handles beneath the section: Facebook /GoodCauseNPO · Instagram @goodcausecares · YouTube · TikTok</p>
+    </div>
+  </div>
+
+  <!-- CHANGE 6 -->
+  <div class="change fix">
+    <div class="change-label">Fix Consistency</div>
+    <h2>6. Testimonials — Replace Generic Placeholders</h2>
+    <div class="position">Position: Existing testimonials section</div>
+    <div class="note"><strong>Current problem:</strong> "The Naidoo Family, Johannesburg", "Ben K., Cape Town" — no animal name, no specific story, no photo. These read as placeholder content and undermine authenticity.</div>
+    <div class="copy-box" style="margin-top:12px">
+      <h3>Action Required</h3>
+      <p>Replace with 2-3 real stories from Good Cause's Facebook page or Good Cause TV. Each testimonial needs: animal name, what happened, outcome, real first name and location.</p>
+      <p style="color:#888;font-size:14px">Real stories are being sourced. This section to be updated once confirmed.</p>
+    </div>
+  </div>
+
+  <!-- CHANGE 7 -->
+  <div class="change fix">
+    <div class="change-label">Fix Consistency</div>
+    <h2>7. Instagram Bio — Update Separately</h2>
+    <div class="position">Platform: Instagram @goodcausecares (not the website — flag to Dean)</div>
+    <div class="note"><strong>Current bio:</strong> "motivated by effectively raising visibility for nonprofit missions" — generic and doesn't match any other platform.</div>
+    <div class="copy-box" style="margin-top:12px">
+      <h3>Recommended Instagram Bio</h3>
+      <p>Good Cause (NPO 262-603) — We fund, amplify, and stand beside the animal welfare organisations doing the hard work on the ground. Because all creatures deserve a voice. 🐾</p>
+      <p style="font-size:13px;color:#888;margin-top:8px">Dean to update directly in Instagram settings.</p>
+    </div>
+  </div>
+
+  <!-- PENDING -->
+  <div class="pending">
+    <h3>Still Needed Before Handover is Complete</h3>
+    <ul>
+      <li>2-3 real animal stories for testimonials (from Facebook / Good Cause TV)</li>
+      <li>Google Form link for "Suggest A Shelter" CTA (Riaan to create or Dean to share)</li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  <div class="container">
+    Prepared by Atlas · Good Cause NPO 262-603 · goodcausecares.com
+  </div>
+</footer>
+
+</body>
+</html>
